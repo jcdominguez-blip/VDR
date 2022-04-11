@@ -1,0 +1,40 @@
+*{
+    font-family: "manrope";
+}
+
+
+#navbarNav{
+
+text-align: right;
+
+
+
+}
+
+
+
+.navjustify-content-end {
+
+font-family: url(/Typography/Manrope-Bold.otf);
+}
+
+.nav{
+
+color: aliceblue;
+
+font-family: url(/Typography/Manrope-Bold.otf);
+
+}
+
+.navlink{
+
+
+ 
+  display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+    
+}

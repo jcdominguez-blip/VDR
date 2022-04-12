@@ -18,30 +18,32 @@
 <header>
 
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-black">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./Img/vdr.png" width="80px"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="navbar-brand" href="#"><img src="./Img/vdr.png" width="80px" alt=""></a>
+        <div class="justify-content-end">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-info "></span>
+        </button>        
+       
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="text-white nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav-link active" aria-current="page" href="#">GUIAS</a>
+            </li>
+             <li class="nav-item">
+              <a class="text-white nav-link active d-flex justify-content-end" aria-current="page" href="#">GALERIA</a>
+            </li>
+                        
+           </div>
+          
+          </ul>
+         
+    </nav>
         
-        <div class="container-fluid" >
-              <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="navlink"  href="#"> HOME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="navlink" href="#">GUÍAS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="navlink" href="#">GALERIAS</a>
-                </li>
-                <li class="navitem">                  
-                </li>
-              </ul>
-            </div>
-        <div class="collapse navbar-collapse" id="navbarCollapse">       
-
       
   </header>
 
@@ -102,8 +104,168 @@
 
 <!--fin del carrusel-->
 
+<!--galeria-->
+<div class="container m-5" >
+<div class="row" >
+<h1 class="ml">Lugares que deberías visitar</h1>
+</div>
+</div>
+<div class="container">
+  <div class="row">
+ 
+    <div class="col">
+      <div class="card mb-3 shadow p-3 mb-5 bg-body rounded" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./Img/img2.png" width="400px" class="img-fluid rounded-start" alt="img1">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Ruta del vino</h5>
+              <p class="card-text">Lorem ipsum orem ipsum orem ipsum orem ipsum dolor sit ametr sit ametr sit ametr sit ametr sit amet consectetur ad..</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <button type="button" class="btn btn-info text-white">Small button</button>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col order-5">
+      <div class="card mb-3 shadow p-3 mb-5 bg-body rounded" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./Img/img1.png" width="400px" class="img-fluid rounded-start" alt="img1">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Tafí del valle</h5>
+              <p class="card-text">Lorem ipsum orem ipsum orem ipsum orem ipsum dolor sit ametr sit ametr sit ametr sit ametr sit amet consectetur ad.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <button type="button" class="btn btn-info text-white">Small button</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col order-1">
+      <div class="card mb-3 shadow p-3 mb-5 bg-body rounded" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./Img/img3.png" width="400px" class="img-fluid rounded-start" alt="img1">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Bariloche</h5>
+              <p class="card-text">Lorem ipsum orem ipsum orem ipsum orem ipsum dolor sit ametr sit ametr sit ametr sit ametr sit amet consectetur ad..</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <button type="button" class="btn btn-info text-white">Small button</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<!--fin de galeria -->
 
+<!--video-->
+
+<section class="light">
+	<div class="container py-2">
+		<div class="container m-5 text-dark ml" > <h1>Guía rutera</h1></div>
+
+		<article class="postcard light blue">
+			<a class="postcard__img_link" href="#">
+				<img class="postcard__img" src="https://elexpresodesalta.com.ar/download/multimedia.normal.ba8a6799991aac36.626573746461792d73616c74612d7275746164656c646973656e6f5f6e6f726d616c2e6a7067.jpg" alt="Image Title" />
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title blue"><a href="#">Camino a Salta</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+					<li class="tag__item play blue">
+						<a href="#"><i class="fas fa-play mr-2 text-white"></i>Play Episodio</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<article class="postcard light red">
+			<a class="postcard__img_link" href="#">
+				<img class="postcard__img" src="https://www.sirchandler.com.ar/wp-content/uploads/2017/12/D-camino-salta.jpg" alt="Image Title" />	
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title red"><a href="#">Ruta 40, una de las maravillas de Argentina</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+					<li class="tag__item play red">
+						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<article class="postcard light green">
+			<a class="postcard__img_link" href="#">
+				<img class="postcard__img" src="https://www.visitingargentina.com/wp-content/uploads/2019/04/10927297304_d5bced4b0e_h.jpg" alt="Image Title" />
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title green"><a href="#">Salta -Cafayate: Guía para no perderse</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+					<li class="tag__item play green">
+						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<article class="postcard light yellow">
+			<a class="postcard__img_link" href="#">
+				<img class="postcard__img" src="https://media.vogue.mx/photos/5e20dbca07b0840008ae2523/master/w_1600%2Cc_limit/Salar-de-Uyuni--Bolivia--reflejo.jpg" alt="Image Title" />
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title yellow"><a href="#">Salar de Uyuni</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+					<li class="tag__item play yellow">
+						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+	</div>
+</section>
+<!--fin de video-->
 
 
 

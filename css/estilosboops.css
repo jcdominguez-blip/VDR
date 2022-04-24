@@ -50,6 +50,14 @@ font-family: url(/Typography/Manrope-Bold.otf);
 
 background: #48cae4;
 }
+
+@media (max-width: 992px) {
+  .responsive {
+  background-image: url(/Img/smarth.png);
+ 
+  }
+  }
+
 /*fin de galerias*/
 
 /*comienzo de video*/
@@ -392,6 +400,10 @@ margin-right: 10%;
     
     background-color: #000000
 
+    }
+
+
+  
 }
 
    .pf{
@@ -402,9 +414,16 @@ color: #48cae4;
 
 
     }
+    @media (max-width: 992px) {
+      .fbg {
+        
+      background-color: #000000;
+
+      }
+      }
+
     
-    
-   }
+   
    /*carrusell*/
    body {
     padding-top: 0rem;
@@ -499,9 +518,9 @@ color: #48cae4;
   
     font-weight: lighter;  
     color: white;
-    margin-left: 10px;
+    margin-left: 0.5vw;
     border: none; 
-    width: 750px;
+    width: 40vw;
     text-align: justify;  
   
   
@@ -569,8 +588,9 @@ color: #48cae4;
   /*Header de guias*/
 
   .bg-cover {
-    background-size: cover !important;
+    background-size: cover;
 }
+ 
 
 
 
@@ -590,4 +610,34 @@ color: #48cae4;
 
 background-color: #48cae4;
 
+}
+
+/*galeríamapa responsive*/
+
+@media (max-width: 992px) {
+
+
+ .mapa {
+  
+  flex-direction: column;
+  justify-content: center;
+
+ }
+}
+/*galeria de fotos guia*/
+
+.close {
+  font-size: 1.5rem;
+}
+
+.col-12 img {
+  opacity: 0.7;
+  cursor: pointer;
+  margin: 2rem;
+  width: 100%;
+}
+
+.col-12 img:hover {
+  opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

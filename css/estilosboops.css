@@ -469,6 +469,7 @@ color: #48cae4;
 
     }
     @media (max-width: 992px) {
+      
       .fbg {
         
       background-color: #000000;
@@ -652,7 +653,7 @@ color: #48cae4;
 /*
 *
 * ==========================================
-* FOR DEMO PURPOSES
+estilos Nav 
 * ==========================================
 *
 */
@@ -660,7 +661,7 @@ color: #48cae4;
 
    
 
-/*ESTILOS DEL NAV DE GALERIA*/
+
 .bg-mio{
 
 background-color: #48cae4;

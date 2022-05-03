@@ -1,0 +1,72 @@
+
+
+@import"_tipografia";
+@import"_responsive";
+
+
+//anidamiento nav//
+#navbarNav{
+
+    text-align: right;
+    
+    
+    
+    }
+    
+    
+    
+    .navjustify-content-end {
+    
+    font-family: url(/Typography/Manrope-Bold.otf);
+    }
+    
+    .bgmio{
+    
+    background-color: #212529
+    
+    
+    }
+    
+    
+    .nav{
+    
+    color: aliceblue;
+    
+    font-family: url(/Typography/Manrope-Bold.otf);
+    
+    }
+    
+    .navlink{
+    
+    
+    
+display: block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+    
+        
+    }
+
+    //Extend//
+
+    .btn-mio{
+
+        color: #ffffff;
+        background-color: #48cae4;
+        }
+
+
+        
+
+    .btn-mio2{
+
+    @extend.btn-mio;
+    color: black;
+    background-color: #48cae4; 
+    border-radius: 5%;
+
+    }
+
+            

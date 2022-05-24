@@ -48,6 +48,22 @@ font-family: url(/Typography/Manrope-Bold.otf);
 
     
 }
+
+/*---------SCROLLBAR----------*/
+body::-webkit-scrollbar{
+
+width: 7px;
+background: #212529;
+}
+
+body::-webkit-scrollbar-thumb{
+
+background: #48cae4;
+border-radius: 5px;
+
+}
+
+
 /*++++++++++++++++++++++++++
 ++++++++++++++++++++++++++ESTILO DE video de presentacion HEADER*/
 
@@ -334,6 +350,30 @@ footer {
     opacity:1;
   }
   
+  /*PAGINA EN CONSTRUCCION*/
+.headerc{
+
+background:#48cae4;
+
+}
+
+.h1c{
+
+font-weight: bold;
+padding-left: 1px;
+
+}
+
+.pc{
+  color: white;
+  font-size: medium;
+  font-weight: lighter;
+}
+  .construccion{
+padding-left: 40%;
+margin-top: 10%;
+
+  }
   
   /**********************************
   MEDIA QUERIES

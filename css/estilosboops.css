@@ -63,7 +63,7 @@ background: #212529;
 
 body::-webkit-scrollbar-thumb{
 
-background: #48cae4;
+background: #3f97d3;
 border-radius: 5px;
 
 }
@@ -176,7 +176,7 @@ a:hover, a:focus {
 }
 .li-footer{
 
-color: #48cae4;
+color: #3f97d3;
 
 }
 
@@ -189,7 +189,7 @@ margin-right: 5%;
 .btn-mio{
 
 color: #ffffff;
-background-color: #48cae4;
+background-color: #3f97d3;
 }
 footer {
   background: #212529;
@@ -215,7 +215,7 @@ object-fit: cover;
   -------------------------------------------------- */
   .bd-placeholder-img {
     
-    background-image: url(https://activated.org/media/images/la-ruta-de-la-felicidad.max-750x450.jpg);
+    background-image: url(https://i.ibb.co/X5vDXMf/Ibb01.png);
     background: color(rgba(225,225,225,0),rgba(0,0,0,1));
     font-size: 1.125rem;
     object-fit: cover;
@@ -250,7 +250,7 @@ object-fit: cover;
     font-weight:semibold;
     margin-left: 10px;
 
-    color: #48cae4;
+    color: #3f97d3;
   
   
   }
@@ -369,7 +369,7 @@ object-fit: cover;
     transition:opacity 0.15s ease-in;
     opacity:0;
     padding-top:80px;
-    color:#48cae4;
+    color:#3f97d3;
     text-shadow:none;
   }
   
@@ -408,7 +408,7 @@ object-fit: cover;
   /*PAGINA EN CONSTRUCCION*/
 .headerc{
 
-background:#48cae4;
+background:#3f97d3;
 
 }
 
@@ -458,7 +458,7 @@ margin-left: 20%;
 }
 .btm-mio {
 
-background: #48cae4;
+background: #3f97d3;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -565,7 +565,7 @@ margin-right: 10%;
     height: 10px;
     margin: 10px 0;
     border-radius: 5px;
-    background-color: #48cae4;
+    background-color: #3f97d3;
     transition: width 0.2s ease;
   }
 
@@ -594,7 +594,7 @@ margin-right: 10%;
 
     .tag__item {
       display: inline-block;
-      background: #48cae4;
+      background: #3f97d3;
       color: #f3f5f7;
       border-radius: 3px;
       padding: 2.5px 10px;
@@ -842,7 +842,7 @@ estilos Nav
 
 .bg-mio{
 
-background-color: #48cae4;
+background-color: #3f97d3;
 
 }
 
@@ -906,7 +906,7 @@ background-color: #48cae4;
     .btn-mio{
     
     color: #ffffff;
-    background-color: #48cae4;
+    background-color: #3f97d3;
 
     }
 
